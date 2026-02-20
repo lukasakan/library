@@ -1,9 +1,11 @@
 
 # MyLibrary
 
-It's a simple library app to keep track of all books you read or red.
+It's a simple library app to keep track of all books you read or read.
 
-#
+* [Installation](#installation)
+* [Features](#features)
+* [Screenshots](#screenshots)
 
 
 ## Features
