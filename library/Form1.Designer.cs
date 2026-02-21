@@ -52,6 +52,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.RosyBrown;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(0, -1);
             this.dataGridView1.Name = "dataGridView1";
@@ -70,6 +71,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(485, 411);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 20);
@@ -80,6 +82,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(178, 313);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 20);
@@ -96,6 +99,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(342, 313);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 20);
@@ -119,6 +123,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(606, 310);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(104, 20);
@@ -128,6 +133,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(478, 312);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(54, 20);
@@ -144,6 +150,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(599, 344);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 20);
@@ -159,37 +166,43 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.RosyBrown;
+            this.button1.ForeColor = System.Drawing.SystemColors.Window;
             this.button1.Location = new System.Drawing.Point(16, 400);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 36);
             this.button1.TabIndex = 13;
             this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.RosyBrown;
+            this.button2.ForeColor = System.Drawing.SystemColors.Window;
             this.button2.Location = new System.Drawing.Point(139, 400);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 36);
             this.button2.TabIndex = 14;
             this.button2.Text = "Delete";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.RosyBrown;
             this.button3.Location = new System.Drawing.Point(387, 400);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(92, 36);
             this.button3.TabIndex = 15;
             this.button3.Text = "Load";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(12, 313);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 20);
@@ -199,6 +212,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.Window;
             this.label8.Location = new System.Drawing.Point(237, 408);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(23, 20);
@@ -217,6 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(53)))), ((int)(((byte)(36)))));
             this.ClientSize = new System.Drawing.Size(1022, 488);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox5);
