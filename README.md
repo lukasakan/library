@@ -10,8 +10,8 @@ It's a simple library app to keep track of all books you read or read.
 
 
 ## ✨Features
-- Load Button to load the database/your library and edit it
-- Add a button you can add a new book
+- Load Button: to load the database/your library and edit it
+- Add button: you can add a new book
 - Delete button: You can delete any book by inputting its id
 
 
